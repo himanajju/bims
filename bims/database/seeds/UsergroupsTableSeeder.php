@@ -13,14 +13,15 @@ class UsergroupsTableSeeder extends Seeder
     {
         DB::table('usergroups')->insert(['id' => 1,
         						'group_title' => 'ADMIN',
-        						'create_at' => '2017-07-30 00:00:00',
-        						'update_at' => '2017-07-30 00:00:00' 
+        						'created_at' => '2017-07-30 00:00:00',
+        						'updated_at' => '2017-07-30 00:00:00' 
         							]);
         DB::table('usergroups')->insert(['id' => 2,
         						'group_title' => 'USER',
-        						'create_at' => '2017-07-30 00:00:00',
-        						'update_at' => '2017-07-30 00:00:00' 
+        						'created_at' => '2017-07-30 00:00:00',
+        						'updated_at' => '2017-07-30 00:00:00' 
         							]);
 
     }
 }
+
